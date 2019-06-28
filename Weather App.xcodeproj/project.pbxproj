@@ -54,6 +54,8 @@
 		4DC1E7ED22C5613500EDF680 /* Weather App */ = {
 			isa = PBXGroup;
 			children = (
+				4DC1E80122C5960000EDF680 /* Views */,
+				4DC1E80022C595FD00EDF680 /* View Controllers */,
 				4DC1E7EE22C5613500EDF680 /* AppDelegate.swift */,
 				4DC1E7F022C5613500EDF680 /* ViewController.swift */,
 				4DC1E7F222C5613500EDF680 /* Main.storyboard */,
@@ -62,6 +64,20 @@
 				4DC1E7FA22C5613600EDF680 /* Info.plist */,
 			);
 			path = "Weather App";
+			sourceTree = "<group>";
+		};
+		4DC1E80022C595FD00EDF680 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4DC1E80122C5960000EDF680 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
