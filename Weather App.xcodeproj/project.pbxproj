@@ -14,6 +14,7 @@
 		4DC1E7F922C5613600EDF680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC1E7F722C5613600EDF680 /* LaunchScreen.storyboard */; };
 		4DC1E80322C5972200EDF680 /* ForecastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC1E80222C5972200EDF680 /* ForecastTableViewController.swift */; };
 		4DC1E80522C5973800EDF680 /* DailyForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC1E80422C5973800EDF680 /* DailyForecastTableViewCell.swift */; };
+		4DC1E80A22C6B2A400EDF680 /* Forecast.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DC1E80922C6B2A400EDF680 /* Forecast.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4DC1E7FA22C5613600EDF680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DC1E80222C5972200EDF680 /* ForecastTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewController.swift; sourceTree = "<group>"; };
 		4DC1E80422C5973800EDF680 /* DailyForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecastTableViewCell.swift; sourceTree = "<group>"; };
+		4DC1E80922C6B2A400EDF680 /* Forecast.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Forecast.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		4DC1E7ED22C5613500EDF680 /* Weather App */ = {
 			isa = PBXGroup;
 			children = (
+				4DC1E80622C6AF1500EDF680 /* Sample JSON */,
 				4DC1E80122C5960000EDF680 /* Views */,
 				4DC1E80022C595FD00EDF680 /* View Controllers */,
 				4DC1E7EE22C5613500EDF680 /* AppDelegate.swift */,
@@ -84,6 +87,14 @@
 				4DC1E80422C5973800EDF680 /* DailyForecastTableViewCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4DC1E80622C6AF1500EDF680 /* Sample JSON */ = {
+			isa = PBXGroup;
+			children = (
+				4DC1E80922C6B2A400EDF680 /* Forecast.json */,
+			);
+			path = "Sample JSON";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC1E80A22C6B2A400EDF680 /* Forecast.json in Resources */,
 				4DC1E7F922C5613600EDF680 /* LaunchScreen.storyboard in Resources */,
 				4DC1E7F622C5613600EDF680 /* Assets.xcassets in Resources */,
 				4DC1E7F422C5613500EDF680 /* Main.storyboard in Resources */,
