@@ -12,6 +12,8 @@
 		4DC1E7F422C5613500EDF680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC1E7F222C5613500EDF680 /* Main.storyboard */; };
 		4DC1E7F622C5613600EDF680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC1E7F522C5613600EDF680 /* Assets.xcassets */; };
 		4DC1E7F922C5613600EDF680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC1E7F722C5613600EDF680 /* LaunchScreen.storyboard */; };
+		4DC1E80322C5972200EDF680 /* ForecastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC1E80222C5972200EDF680 /* ForecastTableViewController.swift */; };
+		4DC1E80522C5973800EDF680 /* DailyForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC1E80422C5973800EDF680 /* DailyForecastTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4DC1E7F522C5613600EDF680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DC1E7F822C5613600EDF680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DC1E7FA22C5613600EDF680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC1E80222C5972200EDF680 /* ForecastTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewController.swift; sourceTree = "<group>"; };
+		4DC1E80422C5973800EDF680 /* DailyForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecastTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 		4DC1E80022C595FD00EDF680 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4DC1E80222C5972200EDF680 /* ForecastTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -76,6 +81,7 @@
 		4DC1E80122C5960000EDF680 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4DC1E80422C5973800EDF680 /* DailyForecastTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,6 +157,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC1E80522C5973800EDF680 /* DailyForecastTableViewCell.swift in Sources */,
+				4DC1E80322C5972200EDF680 /* ForecastTableViewController.swift in Sources */,
 				4DC1E7F122C5613500EDF680 /* ViewController.swift in Sources */,
 				4DC1E7EF22C5613500EDF680 /* AppDelegate.swift in Sources */,
 			);
