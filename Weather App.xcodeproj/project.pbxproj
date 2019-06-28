@@ -15,6 +15,7 @@
 		4DC1E80322C5972200EDF680 /* ForecastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC1E80222C5972200EDF680 /* ForecastTableViewController.swift */; };
 		4DC1E80522C5973800EDF680 /* DailyForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC1E80422C5973800EDF680 /* DailyForecastTableViewCell.swift */; };
 		4DC1E80A22C6B2A400EDF680 /* Forecast.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DC1E80922C6B2A400EDF680 /* Forecast.json */; };
+		4DE1FAD222C6B57700292A5C /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1FAD122C6B57700292A5C /* Forecast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4DC1E80222C5972200EDF680 /* ForecastTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewController.swift; sourceTree = "<group>"; };
 		4DC1E80422C5973800EDF680 /* DailyForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecastTableViewCell.swift; sourceTree = "<group>"; };
 		4DC1E80922C6B2A400EDF680 /* Forecast.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Forecast.json; sourceTree = "<group>"; };
+		4DE1FAD122C6B57700292A5C /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		4DC1E7ED22C5613500EDF680 /* Weather App */ = {
 			isa = PBXGroup;
 			children = (
+				4DE1FAD122C6B57700292A5C /* Forecast.swift */,
 				4DC1E80622C6AF1500EDF680 /* Sample JSON */,
 				4DC1E80122C5960000EDF680 /* Views */,
 				4DC1E80022C595FD00EDF680 /* View Controllers */,
@@ -107,6 +110,7 @@
 				4DC1E7E722C5613500EDF680 /* Sources */,
 				4DC1E7E822C5613500EDF680 /* Frameworks */,
 				4DC1E7E922C5613500EDF680 /* Resources */,
+				4DE1FAD022C6B46400292A5C /* Quicktype */,
 			);
 			buildRules = (
 			);
@@ -164,6 +168,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DE1FAD022C6B46400292A5C /* Quicktype */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Quicktype;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "quicktype WeatherClient/SampleJson/Forecast.json -o WeatherClient/Forecast.swift\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4DC1E7E722C5613500EDF680 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -173,6 +198,7 @@
 				4DC1E80322C5972200EDF680 /* ForecastTableViewController.swift in Sources */,
 				4DC1E7F122C5613500EDF680 /* ViewController.swift in Sources */,
 				4DC1E7EF22C5613500EDF680 /* AppDelegate.swift in Sources */,
+				4DE1FAD222C6B57700292A5C /* Forecast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
