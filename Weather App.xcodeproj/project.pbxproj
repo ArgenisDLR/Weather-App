@@ -16,6 +16,7 @@
 		4DC1E80522C5973800EDF680 /* DailyForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC1E80422C5973800EDF680 /* DailyForecastTableViewCell.swift */; };
 		4DC1E80A22C6B2A400EDF680 /* Forecast.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DC1E80922C6B2A400EDF680 /* Forecast.json */; };
 		4DE1FAD222C6B57700292A5C /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1FAD122C6B57700292A5C /* Forecast.swift */; };
+		4DE1FAD422C6B6B800292A5C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4DE1FAD322C6B6B800292A5C /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4DC1E80422C5973800EDF680 /* DailyForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecastTableViewCell.swift; sourceTree = "<group>"; };
 		4DC1E80922C6B2A400EDF680 /* Forecast.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Forecast.json; sourceTree = "<group>"; };
 		4DE1FAD122C6B57700292A5C /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		4DE1FAD322C6B6B800292A5C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		4DC1E7E222C5613500EDF680 = {
 			isa = PBXGroup;
 			children = (
+				4DE1FAD322C6B6B800292A5C /* Podfile */,
 				4DC1E7ED22C5613500EDF680 /* Weather App */,
 				4DC1E7EC22C5613500EDF680 /* Products */,
 			);
@@ -159,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE1FAD422C6B6B800292A5C /* Podfile in Resources */,
 				4DC1E80A22C6B2A400EDF680 /* Forecast.json in Resources */,
 				4DC1E7F922C5613600EDF680 /* LaunchScreen.storyboard in Resources */,
 				4DC1E7F622C5613600EDF680 /* Assets.xcassets in Resources */,
@@ -185,7 +189,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "quicktype WeatherClient/SampleJson/Forecast.json -o WeatherClient/Forecast.swift\n";
+			shellScript = "quicktype WeatherClient/SampleJson/Forecast.json -o WeatherClient/Forecast.swift --no-enums\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
